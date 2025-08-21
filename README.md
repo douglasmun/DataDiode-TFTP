@@ -6,6 +6,12 @@ This project implements a **unidirectional file transfer system** designed for p
 
 The core philosophy of this system is that **"silence is a source of great strength."** The absence of a return channel, which is a significant limitation for most protocols, becomes a security feature here.
 
+![alt text](https://github.com/douglasmun/DataDiode-TFTP/edit/main/IMG_2909.jpg?raw=true)
+
+
+![alt text](https://github.com/douglasmun/DataDiode-TFTP/edit/main/IMG_2910.jpg?raw=true)
+
+
 ## **Core Design Principles**
 
 * **Physical Security via Data Diode:** The system's security is enforced at the **physical layer (Layer 1\)**, not by software or policy. A custom data diode, built with a laser on the sender side and a light detector on the receiver side, creates a physically irreversible, one-way channel. This ensures that no data can ever travel back from the receiver to the sender, effectively preventing threats like ransomware from moving from a less-trusted network (e.g., an IT network) to a more-trusted one (e.g., an OT/SCADA network).  
