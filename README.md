@@ -6,10 +6,10 @@ This project implements a **unidirectional file transfer system** designed for p
 
 The core philosophy of this system is that **"silence is a source of great strength."** The absence of a return channel, which is a significant limitation for most protocols, becomes a security feature here.
 
-![alt text](https://github.com/douglasmun/DataDiode-TFTP/edit/main/IMG_2909.jpg?raw=true)
+![alt text](https://github.com/douglasmun/DataDiode-TFTP/blob/main/IMG_2909.jpg?raw=true)
 
 
-![alt text](https://github.com/douglasmun/DataDiode-TFTP/edit/main/IMG_2910.jpg?raw=true)
+![alt text](https://github.com/douglasmun/DataDiode-TFTP/blob/main/IMG_2910.jpg?raw=true)
 
 
 ## **Core Design Principles**
