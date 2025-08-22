@@ -21,6 +21,8 @@ The core philosophy of this system is that **"silence is a source of great stren
 * **Hash-Based Integrity:** Since the system cannot use checksums or re-transmissions to ensure data integrity, it relies on a **SHA-256 hash** of the file. The client calculates this hash and embeds it into the filename of the initial request. The server then calculates the hash of the received file and compares it to the one in the filename to verify its integrity.  
 * **"Write Now, Ask Never" Philosophy:** On the server side, data is written directly to disk as it is received. This prevents buffer overflows and ensures that as much data as possible is saved, even in a non-guaranteed delivery environment.
 
+### One-Way TFTP Over Data Diode Professional Review by Claude Sonnet4 [link](https://github.com/douglasmun/DataDiode-TFTP/blob/main/One-Way%20TFTP%20Over%20Data%20Diode%20Professional%20Review%20by%20Claude%20Sonnet4%2020250822.pdf)
+
 ## **System Components**
 
 ### **1\. The Client (oneway\_tftp\_client.py)**
